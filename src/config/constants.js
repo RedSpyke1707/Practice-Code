@@ -1,7 +1,7 @@
 export const CHOISES = {
-  ROCK: { id: 'ROCK', name: 'Piedra', icon:''},
-  PAPER: { id: 'PAPER', name: 'Papel', icon:''},
-  SCISSORS: { id: 'SCISSORS', name: 'Tijera', icon:''}  
+  ROCK: { id: 'ROCK', name: 'Piedra', icon:'✊'},
+  PAPER: { id: 'PAPER', name: 'Papel', icon:'✋'},
+  SCISSORS: { id: 'SCISSORS', name: 'Tijera', icon:'✌'}  
 }
 
 export const SCREENS = {
