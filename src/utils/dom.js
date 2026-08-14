@@ -14,9 +14,9 @@ if (key.startsWith('on') && typeof value === 'function') {
 children.flat(Infinity).forEach(child => {
 if (child === null || child === undefined || child === false) return
 if (typeof child === 'string' || typeof child === 'number') {
-  element.appendchild(document.createTextNode(child))
+  element.appendChild(document.createTextNode(child))
 } else if (child instanceof HTMLElement) {
-  element,appendchild(child)
+  element.appendChild(child)
   }
 }) 
 
